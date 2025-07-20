@@ -14,8 +14,8 @@ import re
 from tqdm import tqdm
 
 # --- Configurações ---
-REDIS_HOST = 'localhost'
-REDIS_PORT = 6379
+REDIS_HOST = '147.185.221.22'
+REDIS_PORT = 40943
 TASK_QUEUE_KEY = 'gallery_tasks:queue'
 RESULTS_QUEUE_KEY = 'gallery_tasks:results'
 PROCESSING_HASH_KEY = 'gallery_tasks:processing'
